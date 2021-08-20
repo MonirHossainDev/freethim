@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Meta, Breadcrumb, SidebarAd } from '../../components'
+import { Meta, Breadcrumb, SidebarAd } from '../../../components'
 import {
   RiArrowRightSLine,
   RiCopyrightLine,
-  RiDownload2Line,
   RiFolder2Line,
-  RiFolderDownloadLine,
   RiSettings2Line,
 } from 'react-icons/ri'
-const OneTemplates = () => {
+const PublishingCompany = () => {
   return (
     <div>
       <Meta title='About Freethim' keywords='One, two' />
@@ -52,16 +50,15 @@ const OneTemplates = () => {
                   <ul className='entry__meta--cats'>
                     <li>
                       <RiFolder2Line />
-                      <Link href='/'>Business,</Link>
-                      <Link href='/'>Business</Link>
+                      <Link href='/free-templates/business'>Business</Link>
                     </li>
                     <li>
                       <RiCopyrightLine />
-                      <a href=''>License</a>
+                      <Link href='/license'>License</Link>
                     </li>
                     <li>
                       <RiSettings2Line />
-                      <a href=''>Customize</a>
+                      <Link href='/customize'>Customize</Link>
                     </li>
                   </ul>
                 </div>
@@ -118,4 +115,4 @@ const OneTemplates = () => {
   )
 }
 
-export default OneTemplates
+export default PublishingCompany

@@ -26,49 +26,54 @@ const FreeTemplates = () => {
         <div className='container'>
           <div className='row justify-content-between'>
             <div className='content'>
+              <p>
+                Freethim offers the best in class website templates that are
+                ready to use for any website. Our templates come whit contact
+                form, bright color palettes and modern design. We have HTML,
+                Bootstrap and React JS templates. Making a professional website
+                has never been easier.
+              </p>
               <div className='cats'>
                 <ul>
                   <li className='active'>
                     <Link href='/'>All</Link>
                   </li>
                   <li>
-                    <Link href='/'>Bootstrap5</Link>
-                  </li>
-                  <li>
-                    <Link href='/'>React Js</Link>
+                    <Link href='/free-templates/business'>Business</Link>
                   </li>
                 </ul>
               </div>
               <article className='entry'>
-                <div className='entry__thumb'>
-                  <Image
-                    src='/images/themes/theme1.jpg'
-                    alt='Picture of the author'
-                    layout='responsive'
-                    width={739}
-                    height={374}
-                  />
-                  <div className='middle'>
-                    <RiMoreFill />
+                <Link href='/free-templates/business/publishing-company'>
+                  <div className='entry__thumb'>
+                    <Image
+                      src='/images/themes/theme1.jpg'
+                      alt='Picture of the author'
+                      layout='responsive'
+                      width={739}
+                      height={374}
+                    />
+                    <div className='middle'>
+                      <RiMoreFill />
+                    </div>
                   </div>
-                </div>
+                </Link>
                 <div className='entry__text'>
                   <ul className='entry__text--cats'>
                     <li>
-                      <Link href='/free-templates/'>Business,</Link>
-                    </li>
-                    <li>
-                      <Link href='/free-templates/'>Consulting</Link>
+                      <Link href='/free-templates/business'>Business</Link>
                     </li>
                   </ul>
-                  <h3 className='entry__text--title'>
-                    <Link href='/free-templates/one'>Repair</Link>
-                  </h3>
+                  <h4 className='entry__text--title'>
+                    <Link href='/free-templates/business/publishing-company'>
+                      Publishing Company
+                    </Link>
+                  </h4>
                   <div>
-                    If the services you offer are entirely dedicated to computer
-                    repair, let Repair website template take care of your web
-                    presence. New clients, after all, are always welcome and
-                    with a proper page, you can gain a ton of them.
+                    Publishing Company, hence the name, is a free website
+                    template design for a book publishing company. If you are
+                    searching for a professional and sophisticated web design
+                    that..
                   </div>
                 </div>
               </article>
