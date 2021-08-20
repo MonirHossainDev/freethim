@@ -43,7 +43,7 @@ const OneTemplates = () => {
       <section className='py-100'>
         <div className='container'>
           <div className='row justify-content-between'>
-            <div className='col-lg-8'>
+            <div className='content'>
               <article className='entry'>
                 <div className='entry__heading'>
                   <h2 className='h3'>Publishing Company</h2>
@@ -108,7 +108,7 @@ const OneTemplates = () => {
               </article>
             </div>
 
-            <div className='col-lg-3 px-0'>
+            <div className='sidebar'>
               <SidebarAd />
             </div>
           </div>
