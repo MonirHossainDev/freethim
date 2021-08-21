@@ -351,6 +351,7 @@ img {
     display: block;
     transition: ease all 0.3s;
     position: relative;
+    background-color: #f7f7f7;
     &:hover .middle {
       opacity: 1;
     }
