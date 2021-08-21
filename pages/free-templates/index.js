@@ -8,7 +8,7 @@ const FreeTemplates = () => {
     <div>
       <Meta title='About Freethim' keywords='One, two' />
       <Breadcrumb>
-        <div className='d-flex align-items-center justify-content-between'>
+        <div className='breadcrumb__lg'>
           <h5>Free Templates</h5>
           <ul>
             <li>

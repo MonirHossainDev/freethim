@@ -7,7 +7,7 @@ const Customize = () => {
     <div>
       <Meta title='About Freethim' keywords='One, two' />
       <Breadcrumb>
-        <div className='d-flex align-items-center justify-content-between'>
+        <div className='breadcrumb__lg'>
           <h5>Template Customization</h5>
           <ul>
             <li>
