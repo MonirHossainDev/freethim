@@ -1,9 +1,9 @@
 const HomePage = () => {
   return (
-    <div>
+    <div className='py-100'>
       <div className='container'>
         <div className='row'>
-          <div className='col-6 mx-auto'>
+          <div className='col-10 mx-auto'>
             <h1>Home Page</h1>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
             laborum quis tempora ipsum atque ea. Voluptate et, corrupti

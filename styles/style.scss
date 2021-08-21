@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto+Slab&display=swap');
-//
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
 // Typography
 //
 
 // Font Families
-$font-primary: 'Rubik', Helvetica, Arial, sans-serif !default;
+$font-primary: 'Roboto', Helvetica, Arial, sans-serif !default;
+$font-secondary: 'Caudex', sans-serif !default;
 
 // Font Sizes
 $font-size: 16px !default;
@@ -25,7 +26,7 @@ $xxl: 1400px !default; // Extra large devices (large desktops, >=1200)
 //
 
 // Main Colors
-$color-main: #555 !default;
+$color-main: #616161 !default;
 $bg-color-main: #fff !default;
 .mx-auto {
   margin-left: auto;
@@ -53,7 +54,7 @@ body {
     size: 1rem;
     family: $font-primary;
   }
-  line-height: 1.6;
+  line-height: 1.8;
   color: #13161b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -82,8 +83,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
+  font-family: $font-secondary;
 }
 
 h1,
@@ -143,6 +145,7 @@ a {
   font-weight: 700;
   text-align: center;
   display: block;
+  font-family: $font-secondary;
 }
 /* ===============
 Globals CSS
@@ -217,9 +220,11 @@ img {
   height: 80px;
   &__left {
     a {
-      font-size: 1.5rem;
-      color: #555;
-      font-weight: 400;
+      font-size: 2rem;
+      color: #333;
+      font-weight: 700;
+      font-family: $font-secondary;
+      text-transform: lowercase;
       &:hover {
         color: var(--ft-primary);
       }
@@ -323,6 +328,7 @@ img {
       cursor: pointer;
     }
   }
+
   &__meta {
     margin-bottom: 2rem;
     &--cats {
@@ -410,6 +416,7 @@ img {
         background-color: var(--ft-primary);
         color: #fff;
       }
+
       a {
         display: block;
         padding: 0.5rem 0.75rem;

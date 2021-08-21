@@ -1,19 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Meta, Breadcrumb, SidebarAd } from '../../../components'
-import {
-  RiArrowRightSLine,
-  RiCopyrightLine,
-  RiFolder2Line,
-  RiSettings2Line,
-} from 'react-icons/ri'
-const PublishingCompany = () => {
+import { RiArrowRightSLine, RiFolder2Line, RiTimeLine } from 'react-icons/ri'
+const OnlineCourseWordpressThemes = () => {
   return (
     <div>
       <Meta title='About Freethim' keywords='One, two' />
       <Breadcrumb>
         <div className='d-flex align-items-center justify-content-between'>
-          <h5>Free Templates</h5>
+          <h5>Freethim Blog</h5>
           <ul>
             <li>
               <Link href='/'>Home</Link>
@@ -22,18 +17,21 @@ const PublishingCompany = () => {
               <RiArrowRightSLine />
             </li>
             <li>
-              <Link href='/free-templates'>Free Templates</Link>
+              <Link href='/blog'>Blog</Link>
             </li>
             <li>
               <RiArrowRightSLine />
             </li>
             <li>
-              <Link href='/free-templates/business'>Business</Link>
+              <Link href='/blog/theme-collections'>Theme Collectons</Link>
             </li>
             <li>
               <RiArrowRightSLine />
             </li>
-            <li>Publishing Company</li>
+            <li>
+              2021 Best Online Course WordPress Themes to Create Your Digital
+              Class
+            </li>
           </ul>
         </div>
       </Breadcrumb>
@@ -44,21 +42,22 @@ const PublishingCompany = () => {
             <div className='content'>
               <article className='entry'>
                 <div className='entry__heading'>
-                  <h2 className='h3 mb-20'>Publishing Company</h2>
+                  <h2 className='h3 mb-20'>
+                    2021 Best Online Course WordPress Themes to Create Your
+                    Digital Class
+                  </h2>
                 </div>
                 <div className='entry__meta'>
                   <ul className='entry__meta--cats'>
                     <li>
                       <RiFolder2Line />
-                      <Link href='/free-templates/business'>Business</Link>
+                      <Link href='/blog/theme-collections'>
+                        Theme Collection
+                      </Link>
                     </li>
                     <li>
-                      <RiCopyrightLine />
-                      <Link href='/license'>License</Link>
-                    </li>
-                    <li>
-                      <RiSettings2Line />
-                      <Link href='/customize'>Customize</Link>
+                      <RiTimeLine />
+                      25 Aug 2021
                     </li>
                   </ul>
                 </div>
@@ -115,4 +114,4 @@ const PublishingCompany = () => {
   )
 }
 
-export default PublishingCompany
+export default OnlineCourseWordpressThemes

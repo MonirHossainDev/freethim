@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +25,8 @@ body {
   margin: 0;
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Rubik", Helvetica, Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  line-height: 1.8;
   color: #13161b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -56,8 +56,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
+  font-family: "Caudex", sans-serif;
 }
 
 h1,
@@ -135,6 +136,7 @@ a {
   font-weight: 700;
   text-align: center;
   display: block;
+  font-family: "Caudex", sans-serif;
 }
 
 /* ===============
@@ -466,9 +468,11 @@ img {
 }
 
 .header__left a {
-  font-size: 1.5rem;
-  color: #555;
-  font-weight: 400;
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+  font-family: "Caudex", sans-serif;
+  text-transform: lowercase;
 }
 
 .header__left a:hover {

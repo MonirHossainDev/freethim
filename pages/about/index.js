@@ -1,25 +1,30 @@
+import Link from 'next/link'
 import React from 'react'
-import { Meta, Breadcrumb } from '../../components'
+import { RiArrowRightSLine } from 'react-icons/ri'
+import { Meta, Breadcrumb, SidebarAd } from '../../components'
 
 const AboutPage = () => {
   return (
     <div>
       <Meta title='About Freethim' keywords='One, two' />
       <Breadcrumb>
-        <h4>About</h4>
-        <ul>
-          <li>
-            <a href=''>Home</a>
-          </li>
-          <li>
-            <a href=''>About</a>
-          </li>
-        </ul>
+        <div className='d-flex align-items-center justify-content-between'>
+          <h5>About</h5>
+          <ul>
+            <li>
+              <Link href='/'>Home</Link>
+            </li>
+            <li>
+              <RiArrowRightSLine />
+            </li>
+            <li>About</li>
+          </ul>
+        </div>
       </Breadcrumb>
       <section className='py-100'>
         <div className='container'>
           <div className='row'>
-            <div className='col'>
+            <div className='content'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
               blanditiis explicabo obcaecati ex, aliquid vel neque! Nesciunt a
               fugiat reprehenderit ut repellendus, quae molestias rerum expedita
@@ -83,6 +88,9 @@ const AboutPage = () => {
               itaque corporis asperiores animi id. Accusamus tenetur rerum
               explicabo non temporibus, tempora cumque culpa, similique,
               cupiditate et libero ipsum reiciendis fugit dolorem.
+            </div>
+            <div className='sidebar'>
+              <SidebarAd />
             </div>
           </div>
         </div>

@@ -1,15 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { RiArrowRightSLine, RiMoreFill } from 'react-icons/ri'
-import { Meta, Breadcrumb, SidebarAd } from '../../components'
+import {
+  RiArrowRightSLine,
+  RiFolder2Line,
+  RiMoreFill,
+  RiPriceTag2Line,
+  RiPriceTag3Line,
+  RiPriceTagLine,
+} from 'react-icons/ri'
+import { Meta, Breadcrumb, SidebarAd } from '../../../components'
 
-const Blog = () => {
+const ThemeCollections = () => {
   return (
     <div>
       <Meta title='About Freethim' keywords='One, two' />
       <Breadcrumb>
         <div className='d-flex align-items-center justify-content-between'>
-          <h5>Blog</h5>
+          <h5>Free Templates</h5>
           <ul>
             <li>
               <Link href='/'>Home</Link>
@@ -17,7 +24,13 @@ const Blog = () => {
             <li>
               <RiArrowRightSLine />
             </li>
-            <li>Blog</li>
+            <li>
+              <Link href='/blog'>Blog</Link>
+            </li>
+            <li>
+              <RiArrowRightSLine />
+            </li>
+            <li>Theme Collections</li>
           </ul>
         </div>
       </Breadcrumb>
@@ -67,4 +80,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default ThemeCollections
