@@ -196,6 +196,10 @@ img {
 .py-100 {
   padding: 4rem 0;
 }
+
+.py-80 {
+  padding: 4rem 0;
+}
 // Display
 .d-flex {
   display: flex;
@@ -435,3 +439,43 @@ img {
 }
 
 @import 'buttons';
+
+.footer {
+  border-top: 1px solid #eee;
+  h5 {
+    margin-bottom: 30px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      a {
+        color: #555;
+        padding: 3px 0;
+        display: block;
+        &:hover {
+          color: var(--ft-primary);
+        }
+      }
+    }
+  }
+
+  .social {
+    li {
+      display: inline-block;
+      svg {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+      }
+      a {
+        color: #13161b;
+      }
+    }
+  }
+}
+
+.text-primary {
+  color: var(--ft-primary);
+}

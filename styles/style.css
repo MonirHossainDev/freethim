@@ -440,6 +440,10 @@ img {
   padding: 4rem 0;
 }
 
+.py-80 {
+  padding: 4rem 0;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -863,5 +867,47 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+}
+
+.footer h5 {
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li a {
+  color: #555;
+  padding: 3px 0;
+  display: block;
+}
+
+.footer ul li a:hover {
+  color: var(--ft-primary);
+}
+
+.footer .social li {
+  display: inline-block;
+}
+
+.footer .social li svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.footer .social li a {
+  color: #13161b;
+}
+
+.text-primary {
+  color: var(--ft-primary);
 }
 /*# sourceMappingURL=style.css.map */
