@@ -5,8 +5,8 @@
 }
 
 :root {
-  --ft-primary: #72c02c;
-  --ft-primary-hover: #8cd54a;
+  --ft-primary: #14a800;
+  --ft-primary-hover: #72c02c;
   --ft-light: #f7f7f7;
 }
 
@@ -634,6 +634,7 @@ img {
   -webkit-transition: ease all 0.3s;
   transition: ease all 0.3s;
   position: relative;
+  background-color: #f7f7f7;
 }
 
 .entry__thumb:hover .middle {
